@@ -10,6 +10,7 @@ header {
     padding-top: 12px;
     padding-bottom: 10px;
     color: white;
+    margin-bottom: 50px;
 }
 
 header .container {
@@ -21,6 +22,7 @@ header .container {
     max-width: 1024px;
     width: 100%;
     margin: 0 auto;
+    justify-content: center;
 }
 
 body {
@@ -43,3 +45,48 @@ body {
 .containerFlex {
     display: flex;
 }
+
+.formCadastro input {
+    display: block;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: none;
+}
+
+#btnCadastro {
+    background-color: rgb(2, 192, 2);
+    color: white;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+#btnCancelar {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+form {
+    max-width: 640px;
+    width: 100%;
+    margin-bottom: 56px;
+}
+
+#corpoPg {
+    padding-top: 20px;
+    padding-left: 400px;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+    border-top: 1px solid rgba(0, 0, 0, 1);
+}
+
+

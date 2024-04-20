@@ -8,7 +8,7 @@
 </head>
 <body> 
     <header>
-        <div class="container containerFlex">
+        <div class="container">
             <h1>Cadastro de Pessoa Física</h1>
             <div class="menuHamburger">
                 <span></span>
@@ -18,19 +18,24 @@
             </div>
         </div>
     </header>
-    <div class="container containerFlex" id="corpoPg">
+    <div class="container" id="corpoPg">
         <form class="formCadastro">
-            <input type="text" id="nomeCompleto" placeholder="Digite seu nome completo">
-            <input type="email" id="email" placeholder="Digite seu email">
-            <input type="tel" id="numTelefone" placeholder="Digite seu número de telefone">
-            <input type="text" id="cpf" placeholder="Digite seu CPF">
-            <input type="text" id="endereco" placeholder="Digite seu endereço">
-            <input type="text" id="cep" placeholder="Digite seu CEP">
-            <button type="submit" id="btnCadastro">Cadastrar</button>
-            <button type="reset" id="btnCancelar" >Limpar</button>
+            <input type="text" id="nomeCompleto" name="nome" placeholder="Digite seu Nome Completo">
+            <input type="email" id="email" name="email" placeholder="Digite seu Email">
+            <input type="tel" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+            <input type="text" id="cpf" name="cpf" placeholder="Digite seu CPF">
+            <input type="text" id="endereco" name="endereco" placeholder="Digite seu Endereço">
+            <input type="text" id="cep" name="cep" placeholder="Digite seu CEP">
+            <div class="botoes">
+                <button type="submit" id="btnCadastro">Cadastrar</button>
+                <button type="reset" id="btnCancelar" >Limpar</button>
+            </div>
         </form>
     </div>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>
